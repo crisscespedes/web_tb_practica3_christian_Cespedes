@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 800px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 150px;
+}
+#perfume{
+    
+    float: left;
+}
+#perfume img{
+    width: 300px;
+    height: 500px;
+    
+}
+#letras{
+    width: 450px;
+    float: right;
+    background-color: aqua;
+    float: left;
+}
+.titulo{
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.sub-titulo{
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
