@@ -4,33 +4,83 @@
     padding: 0;
 }
 main{
-    width: 800px;
-    height: 500px;
-    background-color: aquamarine;
-    margin: 150px;
-}
-#perfume{
-    
-    float: left;
-}
-#perfume img{
-    width: 300px;
-    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #d9e6e1;
+    margin: 0 auto;
     
 }
-#letras{
-    width: 450px;
-    float: right;
-    background-color: aqua;
-    float: left;
+
+.perfume{
+    height: auto;
+    width: 500px;
+    margin: 20px;
 }
-.titulo{
-    padding: 20px;
-    font-size: 30px;
+
+.letras{
+    height: auto;
+    width: 500px;
+    margin: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    font-size: 2.8em;
+}
+.categoria{
+    color: #443f3ffd;
+    font-size: 2.1em;
+    padding-bottom: 20px;
+}
+
+.descripcion{
+    padding-top: 50px;
+    font-size: 1.2em;
+}
+
+.precios{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
     
 }
-.sub-titulo{
-    padding: 20px;
-    font-size: 50px;
+.precio-descuento{
+    color: #0a5e03;
+    font-size: 2.8em;
     font-weight: bold;
+    font-family: monospace;
+    
+}
+
+.precio-real{
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.btn-agregar{
+    background-color: #18a00c;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-agregar img{
+    width: 24px;
+    height: 24px;
+}
+
+.btn-agregar span{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.1rem
+
 }
