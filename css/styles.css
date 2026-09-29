@@ -3,31 +3,46 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
 main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #d9e6e1;
     margin: 0 auto;
+    border-radius: 8px;
+    margin: 20px;
+    max-height: 585px;
+    max-width: 850px;
     
 }
-
 .perfume{
-    height: auto;
-    width: 500px;
-    margin: 20px;
+    max-height: 585px;
+    max-width: 400px;
+
+}
+.perfume img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .letras{
     height: auto;
-    width: 500px;
+    width: 400px;
     margin: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 h1{
-    font-size: 2.8em;
+    font-size: 1.8em;
 }
 .categoria{
     color: #443f3ffd;
@@ -82,5 +97,4 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 1.1rem
-
 }
